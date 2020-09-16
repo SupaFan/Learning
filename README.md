@@ -8,6 +8,6 @@
 
 - [JS笔记](https://github.com/SupaFan/Learning/tree/master/JS)
 	- [遍历的一些总结](https://github.com/SupaFan/Learning/blob/master/JS/遍历的一些总结.md)
-	- [Array总结](https://github.com/SupaFan/Learning/blob/master/JS/总结.md)
+	- [Array总结](https://github.com/SupaFan/Learning/blob/master/JS/Array总结.md)
 	- [树形结构](https://github.com/SupaFan/Learning/blob/master/JS/树形结构.md)
 	- [算法总结](https://github.com/SupaFan/Learning/blob/master/JS/算法总结.md)
