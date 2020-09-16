@@ -6,9 +6,9 @@
 
 ####  目录
 
-- [JS笔记](Learning/JS)
-	- [遍历的一些总结](Learning/JS/遍历的一些总结.md)
-	- [Array总结](Learning/JS/Array总结.md)	
-	- [树形结构](Learning/JS/树形结构.md)
-	- [算法总结](Learning/JS/算法总结.md)
+- [JS笔记](https://github.com/SupaFan/Learning/JS)
+	- [遍历的一些总结](https://github.com/SupaFan/Learning/JS/遍历的一些总结.md)
+	- [Array总结](https://github.com/SupaFan/Learning/JS/Array总结.md)	
+	- [树形结构](https://github.com/SupaFan/Learning/JS/树形结构.md)
+	- [算法总结](https://github.com/SupaFan/Learning/JS/算法总结.md)
 
