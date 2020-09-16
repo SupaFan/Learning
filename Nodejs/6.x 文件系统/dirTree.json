@@ -1,0 +1,404 @@
+{
+  "children": [
+    {
+      "fileName": "6.01 open打开文件然后read文件",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.01 open打开文件然后read文件",
+      "children": [],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.01 open打开文件然后read文件\\app.js"
+        },
+        {
+          "fileName": "msg.txt",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.01 open打开文件然后read文件\\msg.txt"
+        }
+      ]
+    },
+    {
+      "fileName": "6.02 open打开文件然后write文件",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.02 open打开文件然后write文件",
+      "children": [],
+      "files": [
+        {
+          "fileName": "app (2).js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.02 open打开文件然后write文件\\app (2).js"
+        },
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.02 open打开文件然后write文件\\app.js"
+        },
+        {
+          "fileName": "msg.txt",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.02 open打开文件然后write文件\\msg.txt"
+        }
+      ]
+    },
+    {
+      "fileName": "6.03 查看文件或者目录信息",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.03 查看文件或者目录信息",
+      "children": [
+        {
+          "fileName": "test",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.03 查看文件或者目录信息\\test",
+          "children": [
+            {
+              "fileName": "testChild",
+              "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.03 查看文件或者目录信息\\test\\testChild",
+              "children": [],
+              "files": [
+                {
+                  "fileName": "msg.txt",
+                  "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.03 查看文件或者目录信息\\test\\testChild\\msg.txt"
+                }
+              ]
+            }
+          ],
+          "files": [
+            {
+              "fileName": "msg.txt",
+              "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.03 查看文件或者目录信息\\test\\msg.txt"
+            }
+          ]
+        },
+        {
+          "fileName": "test - 副本",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.03 查看文件或者目录信息\\test - 副本",
+          "children": [],
+          "files": [
+            {
+              "fileName": "msg.txt",
+              "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.03 查看文件或者目录信息\\test - 副本\\msg.txt"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.03 查看文件或者目录信息\\app.js"
+        },
+        {
+          "fileName": "dirTree.json",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.03 查看文件或者目录信息\\dirTree.json"
+        }
+      ]
+    },
+    {
+      "fileName": "6.04 创建或删除磁盘硬链接",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.04 创建或删除磁盘硬链接",
+      "children": [
+        {
+          "fileName": "test",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.04 创建或删除磁盘硬链接\\test",
+          "children": [],
+          "files": [
+            {
+              "fileName": "rename.png",
+              "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.04 创建或删除磁盘硬链接\\test\\rename.png"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.04 创建或删除磁盘硬链接\\app.js"
+        },
+        {
+          "fileName": "copy.png",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.04 创建或删除磁盘硬链接\\copy.png"
+        },
+        {
+          "fileName": "msg.txt",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.04 创建或删除磁盘硬链接\\msg.txt"
+        }
+      ]
+    },
+    {
+      "fileName": "6.05 创建目录",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.05 创建目录",
+      "children": [
+        {
+          "fileName": "test",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.05 创建目录\\test",
+          "children": [],
+          "files": []
+        }
+      ],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.05 创建目录\\app.js"
+        }
+      ]
+    },
+    {
+      "fileName": "6.05.2 删除目录",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.05.2 删除目录",
+      "children": [],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.05.2 删除目录\\app.js"
+        }
+      ]
+    },
+    {
+      "fileName": "6.06 读取目录",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.06 读取目录",
+      "children": [
+        {
+          "fileName": "test",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.06 读取目录\\test",
+          "children": [],
+          "files": [
+            {
+              "fileName": "msg.txt",
+              "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.06 读取目录\\test\\msg.txt"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.06 读取目录\\app.js"
+        }
+      ]
+    },
+    {
+      "fileName": "6.07 复制一张图片",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.07 复制一张图片",
+      "children": [],
+      "files": [
+        {
+          "fileName": "anotherImg.png",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.07 复制一张图片\\anotherImg.png"
+        },
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.07 复制一张图片\\app.js"
+        },
+        {
+          "fileName": "copy.png",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.07 复制一张图片\\copy.png"
+        },
+        {
+          "fileName": "test.png",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.07 复制一张图片\\test.png"
+        }
+      ]
+    },
+    {
+      "fileName": "6.08 获取文件的绝对路径",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.08 获取文件的绝对路径",
+      "children": [
+        {
+          "fileName": "test",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.08 获取文件的绝对路径\\test",
+          "children": [],
+          "files": [
+            {
+              "fileName": "msg.txt",
+              "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.08 获取文件的绝对路径\\test\\msg.txt"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.08 获取文件的绝对路径\\app.js"
+        }
+      ]
+    },
+    {
+      "fileName": "6.09 检查文件或目录是否存在",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.09 检查文件或目录是否存在",
+      "children": [
+        {
+          "fileName": "test",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.09 检查文件或目录是否存在\\test",
+          "children": [],
+          "files": [
+            {
+              "fileName": "msg.txt",
+              "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.09 检查文件或目录是否存在\\test\\msg.txt"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.09 检查文件或目录是否存在\\app.js"
+        }
+      ]
+    },
+    {
+      "fileName": "6.10 文件的写入",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.10 文件的写入",
+      "children": [],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.10 文件的写入\\app.js"
+        },
+        {
+          "fileName": "appendFile.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.10 文件的写入\\appendFile.js"
+        },
+        {
+          "fileName": "msg.txt",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.10 文件的写入\\msg.txt"
+        }
+      ]
+    },
+    {
+      "fileName": "6.12 文件管理系统-同步方法异步方法",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.12 文件管理系统-同步方法异步方法",
+      "children": [],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.12 文件管理系统-同步方法异步方法\\app.js"
+        },
+        {
+          "fileName": "index.html",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.12 文件管理系统-同步方法异步方法\\index.html"
+        }
+      ]
+    },
+    {
+      "fileName": "6.13 修改文件权限",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.13 修改文件权限",
+      "children": [
+        {
+          "fileName": "test",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.13 修改文件权限\\test",
+          "children": [],
+          "files": []
+        }
+      ],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.13 修改文件权限\\app.js"
+        }
+      ]
+    },
+    {
+      "fileName": "6.14 移动或重命名",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.14 移动或重命名",
+      "children": [
+        {
+          "fileName": "test",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.14 移动或重命名\\test",
+          "children": [],
+          "files": [
+            {
+              "fileName": "rename.png",
+              "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.14 移动或重命名\\test\\rename.png"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.14 移动或重命名\\app.js"
+        }
+      ]
+    },
+    {
+      "fileName": "6.15 监听文件",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.15 监听文件",
+      "children": [],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.15 监听文件\\app.js"
+        },
+        {
+          "fileName": "msg.txt",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.15 监听文件\\msg.txt"
+        }
+      ]
+    },
+    {
+      "fileName": "6.16 截断文件",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.16 截断文件",
+      "children": [],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.16 截断文件\\app.js"
+        },
+        {
+          "fileName": "msg.txt",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.16 截断文件\\msg.txt"
+        }
+      ]
+    },
+    {
+      "fileName": "6.17 readStream读取文件",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.17 readStream读取文件",
+      "children": [],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.17 readStream读取文件\\app.js"
+        },
+        {
+          "fileName": "msg.txt",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.17 readStream读取文件\\msg.txt"
+        }
+      ]
+    },
+    {
+      "fileName": "6.18 writeStream写入文件",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.18 writeStream写入文件",
+      "children": [],
+      "files": [
+        {
+          "fileName": "anotherMsg.txt",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.18 writeStream写入文件\\anotherMsg.txt"
+        },
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.18 writeStream写入文件\\app.js"
+        },
+        {
+          "fileName": "msg.txt",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.18 writeStream写入文件\\msg.txt"
+        }
+      ]
+    },
+    {
+      "fileName": "6.19 path 对路径进行操作",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.19 path 对路径进行操作",
+      "children": [],
+      "files": [
+        {
+          "fileName": "app.js",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.19 path 对路径进行操作\\app.js"
+        },
+        {
+          "fileName": "msg.txt",
+          "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\6.19 path 对路径进行操作\\msg.txt"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "dirTree.js",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\dirTree.js"
+    },
+    {
+      "fileName": "dirTree.json",
+      "path": "d:\\jfanSpace\\nodejs\\6.x 文件系统\\dirTree.json"
+    }
+  ]
+}
