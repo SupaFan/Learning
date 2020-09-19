@@ -18,6 +18,8 @@
 - [Vue.js](https://github.com/SupaFan/Learning/tree/master/Vue.js)
 	- [常见问题解决](https://github.com/SupaFan/Learning/tree/master/Vue.js/常见问题解决)
 		- [IVIEW阻止switch组件默认change事件](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/IVIEW阻止switch组件默认change事件.md)
+		- [预览PDF](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/预览PDF.md)
+		- [预览&多视频切换](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/预览&多视频切换.md)
 	- [Vue2.x](https://github.com/SupaFan/Learning/tree/master/Vue.js/Vue2.x)
 		- [vue.config.js配置](https://github.com/SupaFan/Learning/blob/master/Vue.js/Vue2.x/vue.config.js配置.md)
 		- [脚手架cli-service配置](https://github.com/SupaFan/Learning/blob/master/Vue.js/Vue2.x/脚手架cli-service配置.md)
