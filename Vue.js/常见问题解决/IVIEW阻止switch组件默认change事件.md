@@ -1,6 +1,6 @@
 思路：父层绑定click 阻止捕获事件
 不是render出来的组件也同理
-```
+```javascript
 render: (h, params) => {
   const {
     id,
@@ -16,7 +16,7 @@ render: (h, params) => {
   }, [
     h("i-switch", {
         props: {
-          value: enableStatus === 'ENABLE', //控制开关的打开或关闭状态，官网文档属性是value
+          value: enableStatus === 'ENABLE', // 控制开关的打开或关闭状态，官网文档属性是value
         },
       },
       '启用'),
