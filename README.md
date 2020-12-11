@@ -39,10 +39,10 @@
 		- [IVIEW阻止switch组件默认change事件](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/IVIEW阻止switch组件默认change事件.md)
 		- [预览PDF](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/预览PDF.md)
 		- [预览&多视频切换](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/预览&多视频切换.md)
-		- [前端下载文件遇到的一些问题](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/前端下载文件遇到的一些问题.md)
-		- [浏览器渲染性能优化](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/浏览器渲染性能优化.md)
-		- [whistle](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/whistle.md)
-		- [基于iview实现tableSearch.md](https://github.com/SupaFan/Learning/blob/master/Vue.js/TableSearch/tableSearch.md)
+		- [前端下载文件遇到的一些问题](https://github.com/SupaFan/Learning/blob/master/常见问题解决/前端下载文件遇到的一些问题.md)
+		- [浏览器渲染性能优化](https://github.com/SupaFan/Learning/blob/master/浏览器渲染性能优化.md)
+		- [whistle](https://github.com/SupaFan/Learning/blob/master/常见问题解决/whistle.md)
+		- [基于iview实现tableSearch](https://github.com/SupaFan/Learning/blob/master/Vue.js/TableSearch/tableSearch.md)
 	- [Vue2.x](https://github.com/SupaFan/Learning/tree/master/Vue.js/Vue2.x)
 		- [vue.config.js配置](https://github.com/SupaFan/Learning/blob/master/Vue.js/Vue2.x/vue.config.js配置.md)
 		- [脚手架cli-service配置](https://github.com/SupaFan/Learning/blob/master/Vue.js/Vue2.x/脚手架cli-service配置.md)
@@ -51,3 +51,4 @@
 		- [路由实现原理.md](https://github.com/SupaFan/Learning/blob/master/Vue.js/路由实现原理.md)
 		
 
+浏览器渲染性能优化.md%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md
