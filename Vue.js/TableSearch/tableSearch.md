@@ -8,6 +8,7 @@
 6. 重置按钮自动判断显示隐藏
 7. 媒体查询自动根据浏览器宽度展示不同大小
 8. 当条件过多自动收起 展示 “更多条件”筛选 美化表单
+9. loading时禁用查询
 
 #### 使用方法：
 
@@ -22,7 +23,7 @@ components: {
 2. 使用
 
 ``` javascript
-<TableSearch v-model="tableSearchData" @on-search="search" :columns="searchColums" />
+<TableSearch v-model="tableSearchData" :disabled="loading"  @on-search="search" :columns="searchColums" />
 ```
 
 3. 数据绑定
@@ -32,8 +33,10 @@ data() {
     return {
         // 这里可以传入默认值
         tableSearchData: {
-            enableStates: ['1'], 
-            businessStateMode: "1"
+            enableStates: ['1'],
+            businessStateMode: "1",
+            pageNo: 1,
+        	pageSize: 10,
         },
     }
 }
@@ -75,10 +78,11 @@ computed: {
     ]
   },
 },
-    
+
 methods: {
     search(data) {
         console.log(data)
+        const params = Object.assign({}, this.tableSearchData, formData);
         /** 返回一个对对象
           *  businessStateMode: "1",
           *  date: "",
@@ -102,5 +106,33 @@ tableSearchData: {
     daterange: [],
     select: '' || [],
 },
+```
+
+#### Page分页
+
+```javascript
+<Page
+    size="small"
+    :total="total"
+    :disabled="pending || exporting"
+    @on-change="pageNoChange"
+    @on-page-size-change="pageSizeChange"
+    :current="tableSearchData.pageNo"
+    :page-size="tableSearchData.pageSize"
+    show-sizer
+    show-elevator
+    show-total
+/>
+
+methods: {
+	pageNoChange(pageNo) {
+      this.tableSearchData.pageNo = pageNo;
+      this.search();
+    },
+    pageSizeChange(pageSize) {
+      this.tableSearchData.pageSize = pageSize;
+      this.search();
+    },
+}
 ```
 

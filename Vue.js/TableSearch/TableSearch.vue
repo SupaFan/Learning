@@ -1,10 +1,23 @@
 <template>
-  <div :class="['table-search', {'inline-btn': columns.length < maxRowItem}]" @keyup.enter.prevent="confirm">
+  <div
+    :class="['table-search', { 'inline-btn': columns.length < maxRowItem }]"
+    @keyup.enter.prevent="confirm"
+  >
     <Form :model="formData" :disabled="disabled" class="form-container">
-      <i-input style="display: none;" placeholder="这个框是为了避免只有一个Input时点击回车页面被刷新留下的" />
+      <i-input
+        style="display: none"
+        placeholder="这个框是为了避免只有一个Input时点击回车页面被刷新留下的"
+      />
       <Row :gutter="8" :key="`search_row_${i}`" v-for="(row, i) in columnsArr">
         <template v-if="i <= moreIndex && row">
-          <i-col :xs="8" :xxl="4"  :style="{width: col.width}" :key="`search_col_${j}`" v-for="(col, j) in row" v-show="col">
+          <i-col
+            :sm="8"
+            :lg="4"
+            :style="{ width: col.width }"
+            :key="`search_col_${j}`"
+            v-for="(col, j) in row"
+            v-show="col"
+          >
             <FormItem v-if="col">
               <i-select
                 filterable
@@ -17,9 +30,10 @@
               >
                 <i-option
                   :value="op.value"
-                  v-for="(op) in col.values"
+                  v-for="op in col.values"
                   :key="`search_select_${col.field}_${op.value}`"
-                >{{op.displayName}}</i-option>
+                  >{{ op.displayName }}</i-option
+                >
               </i-select>
 
               <i-select
@@ -37,7 +51,8 @@
                     v-for="o in item.children"
                     :value="o.value"
                     :key="`search_select_${col.field}_${o.value}`"
-                  >{{ o.displayName }}</i-option>
+                    >{{ o.displayName }}</i-option
+                  >
                 </OptionGroup>
               </i-select>
 
@@ -55,7 +70,7 @@
                 v-else-if="col.type === 'date'"
                 type="date"
                 :placeholder="`请选择${col.name}`"
-                style="width: 100%;"
+                style="width: 100%"
               ></DatePicker>
 
               <DatePicker
@@ -64,7 +79,7 @@
                 v-else-if="col.type === 'daterange'"
                 type="daterange"
                 :placeholder="`请选择${col.name}区间`"
-                style="width: 100%;"
+                style="width: 100%"
               ></DatePicker>
             </FormItem>
           </i-col>
@@ -82,7 +97,9 @@
         <span v-else>收起</span>
       </Button>
       <Button type="primary" :disabled="disabled" @click="confirm">查询</Button>
-      <Button @click="reset" :disabled="disabled" v-show="showReset">重置</Button>
+      <Button @click="reset" :disabled="disabled" v-show="showReset"
+        >重置</Button
+      >
       <slot></slot>
     </div>
   </div>
@@ -100,7 +117,7 @@ export default {
       formData: {},
       moreIndex: 0,
       maxRowItem: 6,
-      defaultData: '',
+      defaultData: "",
       showReset: false,
     };
   },
@@ -129,11 +146,19 @@ export default {
   watch: {
     formData: {
       handler(val) {
-        const _formData = JSON.stringify(val);
-        this.showReset = (this.defaultData != _formData)
+        const _defaultData = JSON.parse(this.defaultData);
+        const _val = Object.assign({}, val);
+        // 当有pagenNO和pageSize的情况下重置按钮不校验此参数
+        if (_defaultData.pageSize) {
+          delete _defaultData.pageNo;
+          delete _defaultData.pageSize;
+          delete _val.pageNo;
+          delete _val.pageSize;
+        }
+        this.showReset = JSON.stringify(_defaultData) != JSON.stringify(_val);
       },
-      deep:true
-    }
+      deep: true,
+    },
   },
   computed: {
     columnsArr() {
@@ -181,12 +206,22 @@ export default {
     moreFields() {
       this.moreIndex = this.moreIndex === 0 ? this.columnsArr.length : 0;
     },
+    extendPage() {
+      if (this.value.pageSize) {
+        this.formData = {
+          ...this.formData,
+          pageNo: this.value.pageNo,
+          pageSize: this.value.pageSize,
+        };
+      }
+    },
     reset() {
       this.formData = JSON.parse(this.defaultData);
       this.$emit("input", this.formData);
       this.$emit("on-search", this.formData);
     },
     confirm() {
+      this.extendPage();
       this.$emit("input", this.formData);
       this.$emit("on-search", this.formData);
     },
@@ -203,9 +238,15 @@ export default {
 <style scoped lang="less">
 .table-search {
   text-align: left;
-  .ivu-form-item {margin-bottom: 15px;}
-  .form-container {flex:1}
-  li {text-align: left;}
+  .ivu-form-item {
+    margin-bottom: 15px;
+  }
+  .form-container {
+    flex: 1;
+  }
+  li {
+    text-align: left;
+  }
   .btns {
     text-align: right;
     min-width: 140px;
@@ -216,8 +257,13 @@ export default {
   }
   &.inline-btn {
     display: flex;
-    .btns { text-align: right;}
-    .sc-dv-exporting-button {display: inline-block; margin-left: 10px;}
+    .btns {
+      text-align: right;
+    }
+    .sc-dv-exporting-button {
+      display: inline-block;
+      margin-left: 10px;
+    }
   }
 }
 </style>
