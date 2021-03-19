@@ -50,6 +50,13 @@ w2 start -p 8899 //不设置端口默认使用8899
 
 #### a.创建并启用一个代理选项：
 
+```
+sit.ibp.app.songchejr.com http://localhost:3000
+weinre://APP sit.ibp.app.songchejr.com
+```
+
+
+
 ![clipboard.png](https://segmentfault.com/img/bVbfxN4)
 
 #### b. 启用多个代理选项
