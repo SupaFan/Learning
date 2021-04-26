@@ -35,7 +35,9 @@
 	- [2-安装](https://github.com/SupaFan/Learning/blob/master/DOCKER/2-安装.md)
 	- [3-指令&选项](https://github.com/SupaFan/Learning/blob/master/DOCKER/3-指令&选项.md)
 - [Vue.js](https://github.com/SupaFan/Learning/tree/master/Vue.js)
+
 	- [常见问题解决](https://github.com/SupaFan/Learning/tree/master/Vue.js/常见问题解决)
+		- [枚举值使用](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/枚举值使用.md)
 		- [IVIEW阻止switch组件默认change事件](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/IVIEW阻止switch组件默认change事件.md)
 		- [预览PDF](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/预览PDF.md)
 		- [预览&多视频切换](https://github.com/SupaFan/Learning/blob/master/Vue.js/常见问题解决/预览&多视频切换.md)
