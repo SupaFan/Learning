@@ -1,0 +1,3 @@
+const routers = [
+  {path: '/'}
+]
